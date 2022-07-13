@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="normalize.css">
+
+  <script type="text/javascript">
+    window.onload = function() {
+        document.querySelector(".menu_mobile").addEventListener("click", function(){
+            if (document.querySelector(".menu nav ul").style.display == 'flex'){
+                document.querySelector(".menu nav ul").style.display = 'none';
+                 } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    };
+</script>
+
+  <title>Medi Center</title>
+</head>
+<body>
+  <!-- Menu do site -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href=""><img src="logo.png" alt=""></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menu_mobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+            <ul>
+              <li class="active"><a href="pg.html">Home</a></li>
+              <li><a href="">feedback</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">pages</a></li>
+              <li><a href="">midias</a></li>
+              <li><a href="">sobre</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+   <!-- seção do background com imagem da mulher -->
+    <section id="banner">
+      <div class="container column">
+        <div class="banner_headline">
+            <h1>Top notch experience </h1>
+            <h2>Medi Center is a resposive teamplete perfect for all screen size</h2>
+        </div>
+        <div class="banner_option">
+            <div class="banner1">
+              <div class="banner_title">Emergency Case</div>
+              <div class="banner_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium voluptatem consequatur. Eius voluptas praesentium obcaecati id quas sint beatae vitae pariatur, dolores suscipit facere, enim consectetur aliquid esse laborum.</div>
+              <a href="">Read More</a>
+            </div>
+            <div class="banner2">
+              <div class="banner_title">Doctors Timetable</div>
+              <div class="banner_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium voluptatem consequatur. Eius voluptas praesentium obcaecati id quas sint beatae vitae pariatur, dolores suscipit facere, enim consectetur aliquid esse laborum.</div>
+              <a href="">Read More</a>
+            </div>
+            <div class="banner3">
+              <div class="banner_title">Opening Hours</div>
+              <div class="day">Monday - Friday
+                <div class="hora">9:30 - 15:30</div>
+              </div>
+              <div class="day">Saturday
+                <div class="hora">9:30 - 17:30</div>
+              </div>
+              <div class="day">Sunday
+                <div class="hora">8:00 - 17:00</div>
+              </div>
+              
+            </div>
+        </div>
+      </div>
+    </section>
+
+        <!--Segunda seção background branco --> 
+    <section id="geral">
+      <div class="container">
+        <section>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Latest New</div>
+              <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body flex">
+              <article>
+                <a href="">
+                  <div class="news_data">
+                    <div class="news_posted_at">01 Jan 22</div>
+                    <div class="news_coments">2</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="centro-medico-saiba-como-identificar-os-melhores-scaled.jpg" alt="" srcset="">
+                  </div>
+                  <div class="news_title">
+                    Lorem ipsum dolor sit amet consectetur 
+                  </div>
+                  <div class="news_resume">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil non, illo dolores repudiandae vero aperiam nostrum at ipsa eaque! Dicta sed delectus debitis odio itaque totam, repellendus tempora amet voluptatem.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="">
+                  <div class="news_data">
+                    <div class="news_posted_at">05 Mar 22</div>
+                    <div class="news_coments">7</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="centro-medico-saiba-como-identificar-os-melhores-scaled.jpg" alt="" srcset="">
+                  </div>
+                  <div class="news_title">
+                    Lorem ipsum dolor sit amet consectetur 
+                  </div>
+                  <div class="news_resume">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil non, illo dolores repudiandae vero aperiam nostrum at ipsa eaque! Dicta sed delectus debitis odio itaque totam, repellendus tempora amet voluptatem.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="">
+                  <div class="news_data">
+                    <div class="news_posted_at">13 Jun 22</div>
+                    <div class="news_coments">24</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="centro-medico-saiba-como-identificar-os-melhores-scaled.jpg" alt="" srcset="">
+                  </div>
+                  <div class="news_title">
+                    Lorem ipsum dolor sit amet consectetur 
+                  </div>
+                  <div class="news_resume">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil non, illo dolores repudiandae vero aperiam nostrum at ipsa eaque! Dicta sed delectus debitis odio itaque totam, repellendus tempora amet voluptatem.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="">
+                  <div class="news_data">
+                    <div class="news_posted_at">17 Fev 22</div>
+                    <div class="news_coments">72</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="centro-medico-saiba-como-identificar-os-melhores-scaled.jpg" alt="" srcset="">
+                  </div>
+                  <div class="news_title">
+                    Lorem ipsum dolor sit amet consectetur 
+                  </div>
+                  <div class="news_resume">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil non, illo dolores repudiandae vero aperiam nostrum at ipsa eaque! Dicta sed delectus debitis odio itaque totam, repellendus tempora amet voluptatem.
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+        <aside>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Departaments</div>
+              <div class="widget_title_bar"></div>
+              <div class="widget_title_principal">Primary Health Care</div>
+            <div class="widget_itens">
+              <div class="widget_title_desc"><img src="estetoscopio_diasyst_duplo_pesado_preto_31_1_20210215161505.webp" alt=""></div>
+              <div class="widget_title_desc_text">Mauris adisciping fringila turpis intend tellus ornare etos pelim. Pulvunar est cardio neque vitae elit. Lorem vulputat paentra nunc gravida</div>
+            </div>
+            </div>
+            <div class="widget_body">
+        
+            </div>
+          </div>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Make An Appointment</div>
+              <div class="widget_title_bar"></div>
+              <div class="text_widget">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat rutrum eros sit amet sollicitudin</div>
+              <hr>
+            <div class="contato_itens">
+              <div class="widget_phone"><img src="1ddbe1e99b033293fab57a43d2a7d3fc.jpg" alt=""></div>
+              <div class="phone">by phone: 1-800-643-4300</div>
+            </div>
+            <div class="contato_itens">
+              <div class="email"><img src="pngtree-email-vector-icon-png-image_1027071.jpg" alt=""></div>
+              <div class="text_email">Email by: empresa@email.com</div>
+            </div>  
+            </div>
+            <div class="widget_body">
+              
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+        <!--Rodapé do site background preto-->
+    <footer>
+      <div class="container flexColumn">
+        <div class="footer_menu">
+          <div class="fm_1">
+            Health life
+            <div class="letrinhas">- Lorem ipsum dolor, sit amet</div>
+          </div>
+          <div class="fm_2">
+            Medical Records
+            <div class="letrinhas">- Lorem ipsum dolor, sit amet</div>
+          </div>
+          <div class="fm_3">
+            Online Pay
+            <div class="letrinhas">- Lorem ipsum dolor, sit amet</div>
+          </div>
+        </div>
+        <div class="footer_area">
+          <div class="footer_areaitem ">
+                <div class="widget_title_text">Medi Center Clinic</div>
+                <div class="widget_title_bar"></div>
+                <div class="desc_footerd">Mauris adipiscing mauris  jdhsakhd ksturpis interdum sed pulvinar nisi malesuada individual.</div>
+          </div>
+          <div class="footer_areaitem ">
+            <div class="widget_title_text">Latest Post</div>
+            <div class="widget_title_bar"></div>
+            <div class="desc_footerd">- > Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</div>
+            <div class="desc_footerd">- > Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</div>
+          </div>
+          <div class="footer_areaitem ">
+            <div class="widget_title_text">Latest tweet</div>
+                <div class="widget_title_bar"></div>
+                <div class="desc_footerd">We've just uploaded Finpeak - #Business #Finance #Consulting Template on #ThemeForest 👉 Download it here: t.co/1qD396S2w9</div>
+                <div class="desc_footerd">We've released new version (v14.4) of our GymBase #Gym #Fitness #WordPress Theme. Please check at #ThemeForest t.co/8mEwDqIFTE</div>
+                <div class="desc_footerd">We've released new version (v13.3) of our MediCenter #Health #Medical #Clinic #WordPress Theme. Please check at… t.co/xgJMBzw1lz</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="ultima">
+      <div class="foot">
+        <div class="cop">
+          © Copyright - MediCenter Template replicated by rev
+        </div>
+      </div>
+     
+      
+     </div>
+    </section>
+    
+</body>
+</html>
 
